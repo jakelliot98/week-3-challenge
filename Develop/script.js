@@ -3,10 +3,10 @@
 
 // Get references to the #generate element
 
-var letters = window.prompt("Do you want to use letters?")
-var numbers = window.prompt("Do you want to use numbers?")
-var symbols = window.prompt("Do you want to use symbols?")
-pwLength = window.prompt ("How long will your password be?");
+var letters = window.prompt("Do you want to use letters? Enter 'yes' or 'no'.")
+var numbers = window.prompt("Do you want to use numbers? Enter 'yes' or 'no'.")
+var symbols = window.prompt("Do you want to use symbols? Enter 'yes' or 'no'.")
+pwLength = window.prompt ("How long will your password be? Enter a number 8 - 128.");
 
 var generateBtn = document.querySelector("#generate");
 
