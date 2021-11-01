@@ -2,6 +2,7 @@
 
 
 // Get references to the #generate element
+console.log ("working")
 
 var letters = window.prompt("Do you want to use letters? Enter 'yes' or 'no'.")
 var numbers = window.prompt("Do you want to use numbers? Enter 'yes' or 'no'.")
